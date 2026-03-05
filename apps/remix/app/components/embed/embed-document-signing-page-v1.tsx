@@ -66,7 +66,7 @@ export const EmbedSignDocumentV1ClientPage = ({
   completedFields,
   metadata,
   isCompleted,
-  hidePoweredBy = false,
+  hidePoweredBy = true,
   allowWhitelabelling = false,
   allRecipients = [],
 }: EmbedSignDocumentV1ClientPageProps) => {

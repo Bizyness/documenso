@@ -20,7 +20,7 @@ export type EmbedSignDocumentV2ClientPageProps = {
 };
 
 export const EmbedSignDocumentV2ClientPage = ({
-  hidePoweredBy = false,
+  hidePoweredBy = true,
   allowWhitelabelling = false,
 }: EmbedSignDocumentV2ClientPageProps) => {
   const { _ } = useLingui();

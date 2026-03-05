@@ -70,7 +70,7 @@ export const EmbedSigningProvider = ({
   allowDocumentRejection = false,
   isNameLocked = false,
   isEmailLocked = true,
-  hidePoweredBy = false,
+  hidePoweredBy = true,
   onDocumentCompleted,
   onDocumentError,
   onDocumentRejected,

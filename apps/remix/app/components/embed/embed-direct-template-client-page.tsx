@@ -70,7 +70,7 @@ export const EmbedDirectTemplateClientPage = ({
   recipient,
   fields,
   metadata,
-  hidePoweredBy = false,
+  hidePoweredBy = true,
   allowWhiteLabelling = false,
 }: EmbedDirectTemplateClientPageProps) => {
   const { _ } = useLingui();
