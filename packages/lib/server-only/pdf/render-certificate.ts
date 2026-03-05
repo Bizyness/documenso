@@ -601,7 +601,7 @@ const renderBranding = async ({ qrToken, i18n }: { qrToken: string | null; i18n:
   logoGroup.add(text);
   logoGroup.add(documensoImage);
 
-  branding.add(logoGroup);
+  //branding.add(logoGroup);
 
   if (qrToken) {
     const qrSvg = renderSVG(`${NEXT_PUBLIC_WEBAPP_URL()}/share/${qrToken}`, {
